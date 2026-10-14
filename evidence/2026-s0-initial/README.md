@@ -2,7 +2,7 @@
 
 2026-10-15（Asia/Shanghai），10 个登记版本在 duel-v1 / economy-v1 各进行 4 轮镜像循环赛，主种子 42，共 360 个镜像双局、720 单局。每个 Agent 总计 144 局，各场景 72 局。双方每局最多 3000 tick、每拍最多 64 条命令；完整世界观测。候选版与 reference-v7 当前行为相同，只计入冻结的 reference-v7，tune-* 参数变体留在实验池。
 
-实际编译并执行的是 agents 各版本 `src/lib.rs` 中的 Npc 入口。`roster-mapping.json` 保存 Arena 注册名与正式 `id@version` 的映射；`runner.rs` 逐一包含这些入口，未通过名字替换使用其他策略。初始 roster 的公开登记提交是 [73cb61ae](https://github.com/ra2-agent/agents/commit/73cb61ae6cf4c6cda371fdb884c63745d290004a)，其纳入 main 由 [agents#1](https://github.com/ra2-agent/agents/pull/1) 审核完成后生效。
+实际编译并执行的是 agents 各版本 `src/lib.rs` 中的 Npc 入口。`roster-mapping.json` 保存 Arena 注册名与正式 `id@version` 的映射；`runner.rs` 逐一包含这些入口，未通过名字替换使用其他策略。正式 roster 固定为已合并的公开登记提交 [263f19c9](https://github.com/ra2-agent/agents/commit/263f19c99858625482ba832073b204f29c360325)，登记已通过 [agents#1](https://github.com/ra2-agent/agents/pull/1)。合并提交的源码树与实际评测输入完全相同；评测前的原提交 [73cb61ae](https://github.com/ra2-agent/agents/commit/73cb61ae6cf4c6cda371fdb884c63745d290004a) 另由标签 `2026-s0-tested-source` 保留。
 
 引擎固定为 [189a5e2b](https://github.com/ra2-agent/rust-ra2/commit/189a5e2b3d7e8afaaf5d1a868cb9f15d0464f938)，运行前后均核对干净工作区。此评测不代表原版 RA2、战争迷雾或真实地图环境；小场景池的重复比赛也不等于同样数量的独立地图样本。
 

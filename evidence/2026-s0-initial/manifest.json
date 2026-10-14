@@ -11,59 +11,61 @@
   },
   "registry": {
     "repository": "https://github.com/ra2-agent/agents",
-    "commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+    "commit": "263f19c99858625482ba832073b204f29c360325",
     "roster": [
       {
         "key": "starter-idle@0.1.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "75af779ca67d71f9a03271811f3f94bf3db69710b2d8beb9bcded918ca1fb702"
       },
       {
         "key": "hard-baseline-v1@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "082a362a92613309b2745091db8caf775894e84ce91b89b3ba32c7ce89b14d33"
       },
       {
         "key": "reference-v1@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "c4fc8b70b14a314967c23d9738c4771d79744af9de442f00aea9ec54017d55ad"
       },
       {
         "key": "reference-v2@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "ad956a0e245a07998a8d6ab704dddb75171ea8176b233ce85f7b6d271428b7cc"
       },
       {
         "key": "reference-v3@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "aa29ba383d5081ef2252e0c4172920b5ba13a611d68cd72a7fa3597c4fb89c2c"
       },
       {
         "key": "reference-v4@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "c80245db3e78deb8bcbd9ab2f985eaf136cc09ea046fc2b0191c22c646f35f68"
       },
       {
         "key": "reference-v5@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "2696038561d50543bedc296179cfbdb38965d22f240678d285dcba626b2e0274"
       },
       {
         "key": "reference-v6@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "0ed71aa04b3c43a2b0056798f54da51e6998bef6214f51a48b206ea6ac81e109"
       },
       {
         "key": "reference-v7@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "cc6ce2b84fc7935f28e0900b475453f2293d164fb795ab584368ddb6c0ab2e0d"
       },
       {
         "key": "counter-retreat-v1@1.0.0",
-        "registry_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+        "registry_commit": "263f19c99858625482ba832073b204f29c360325",
         "checksums_sha256": "d1a972ed49b63bbdab43907e7edaea2286eba4d15765434c3713b2b1bf9de467"
       }
-    ]
+    ],
+    "tested_source_commit": "73cb61ae6cf4c6cda371fdb884c63745d290004a",
+    "merged_tree_matches_tested_tree": true
   },
   "platform": "Windows x64",
   "rustc": "rustc 1.101.0-nightly (822182db4 2026-10-13)",
