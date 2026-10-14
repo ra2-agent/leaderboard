@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "season": "2026-s0",
+  "status": "setup",
+  "batches": 0,
+  "pairs": 0,
+  "games": 0,
+  "leaderboard": [],
+  "by_scenario": {
+    "duel-v1": [],
+    "economy-v1": []
+  }
+}

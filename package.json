@@ -1,0 +1,13 @@
+{
+  "name": "@ra2-agent/leaderboard",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs .",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/leaderboard.mjs --write"
+  }
+}

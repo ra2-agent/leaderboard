@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "season": "2026-s0",
+  "status": "setup",
+  "protocol": "ra-arena-full-info-v1",
+  "engine": {
+    "repository": "https://github.com/rust-alert/ra2.exe",
+    "commit": null
+  },
+  "rules_sha256": null,
+  "scenario_pool_sha256": null,
+  "scenarios": [
+    "duel-v1",
+    "economy-v1"
+  ],
+  "max_ticks": 3000,
+  "max_commands_per_tick": 64,
+  "rating": {
+    "initial": 1500,
+    "k": 32,
+    "scale": 400,
+    "provisional_games": 20
+  },
+  "maintainers": [
+    "kexinoh"
+  ],
+  "roster": []
+}

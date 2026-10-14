@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ra2-agent/agent-spec/main/schemas/agent.schema.json",
+  "title": "ra2-agent manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "version",
+    "display_name",
+    "description",
+    "authors",
+    "license",
+    "source_repository",
+    "protocol",
+    "runtime",
+    "entrypoint",
+    "deterministic",
+    "capabilities",
+    "resources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{2,47}$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9-]{0,38}$"
+      }
+    },
+    "license": {
+      "enum": [
+        "Apache-2.0",
+        "MIT",
+        "BSD-3-Clause"
+      ]
+    },
+    "source_repository": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    },
+    "protocol": {
+      "const": "ra-arena-full-info-v1"
+    },
+    "runtime": {
+      "const": "rust-inprocess"
+    },
+    "entrypoint": {
+      "const": "src/lib.rs"
+    },
+    "deterministic": {
+      "const": true
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "network",
+        "filesystem",
+        "subprocess"
+      ],
+      "properties": {
+        "network": {
+          "const": false
+        },
+        "filesystem": {
+          "const": false
+        },
+        "subprocess": {
+          "const": false
+        }
+      }
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "expected_memory_mb",
+        "notes"
+      ],
+      "properties": {
+        "expected_memory_mb": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65536
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      }
+    }
+  }
+}

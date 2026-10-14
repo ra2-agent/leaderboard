@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "sequence": 1,
+  "season": "2026-s0",
+  "submitted_by": "kexinoh",
+  "played_at": "2026-10-14T12:00:00+08:00",
+  "environment": {
+    "engine_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "engine_dirty": false,
+    "protocol": "ra-arena-full-info-v1",
+    "rules_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "scenario_pool_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_ticks": 3000,
+    "max_commands_per_tick": 64
+  },
+  "pairs": [
+    {
+      "id": "demo-only-0001",
+      "scenario": "duel-v1",
+      "agents": [
+        "demo-alpha@0.1.0",
+        "demo-beta@0.1.0"
+      ],
+      "games": [
+        {
+          "seed": "18446744073709551615",
+          "a_seat": "left",
+          "winner": "a",
+          "reason": "elimination",
+          "ticks": 900,
+          "final_hash": "0123456789abcdef"
+        },
+        {
+          "seed": "18446744073709551615",
+          "a_seat": "right",
+          "winner": "a",
+          "reason": "elimination",
+          "ticks": 1000,
+          "final_hash": "fedcba9876543210"
+        }
+      ],
+      "evidence": {
+        "url": "https://example.com/replace-with-real-report.json",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  ]
+}
