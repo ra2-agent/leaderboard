@@ -1,0 +1,8 @@
+Verified 100/720 replays
+Verified 200/720 replays
+Verified 300/720 replays
+Verified 400/720 replays
+Verified 500/720 replays
+Verified 600/720 replays
+Verified 700/720 replays
+Replay verification passed: 720 games; commands, outcomes, state hashes and telemetry match

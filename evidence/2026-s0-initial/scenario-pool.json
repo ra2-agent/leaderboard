@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "engine_commit": "189a5e2b3d7e8afaaf5d1a868cb9f15d0464f938",
+  "protocol": "ra-arena-full-info-v1",
+  "scenarios": [
+    "duel-v1",
+    "economy-v1"
+  ],
+  "files": {
+    "fixtures/rules-v1.ini": "2076a32ea59f32643281409be632b368a1bcdf9598283e3decffff1e095d3632",
+    "fixtures/economy-v1.ini": "23ed78371579d8220ee088d00af971b8cc9f6c3ce6cb7b7930c8e4e2aa32872b",
+    "scenario.rs": "29ef22130454a7b2af40424c83353b4f963ffc6cb339960d8a1a75caad329488",
+    "config.json": "99d2de0bb1a24a2498b2db6e65ced02abadf02f983d97d50d92a9d0b1a747243"
+  },
+  "rules_bundle": {
+    "order": [
+      "fixtures/rules-v1.ini",
+      "fixtures/economy-v1.ini"
+    ],
+    "lengths": [
+      1517,
+      1714
+    ],
+    "sha256": "f9f1e793d20f843cfac90275d4a0e88d0e085e8c4ccd9f8debdc99cc1e827ac2"
+  }
+}

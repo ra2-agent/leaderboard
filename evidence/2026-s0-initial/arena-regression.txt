@@ -1,0 +1,269 @@
+warning: unused workspace dependency `ra-napi`
+  --> Cargo.toml:39:1
+   |
+39 | ra-napi = { path = "projects/bindings/ra-napi" }
+   | ^^^^^^^
+   |
+   = note: `cargo::unused_workspace_dependencies` is set to `warn` by default
+help: consider removing the workspace dependency `ra-napi`
+warning: workspace (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\adapters\ra-adaptor-phobos\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-adaptor-phobos` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\adapters\ra-adaptor-ra2\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-adaptor-ra2` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\bindings\ra-napi\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-napi` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-renderer\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-renderer` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-config\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-config` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-engine\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-engine` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\adapters\ra-adaptor\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-adaptor` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\adapters\ra-adaptor-yuri\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-adaptor-yuri` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-ecs\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-ecs` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-net\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-net` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\bindings\ra-wasm\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-wasm` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-widgets\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-widgets` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-assets\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-assets` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-types\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-types` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-map\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-map` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\engine\ra-layout\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-layout` (manifest) generated 1 warning
+warning: `package.homepage` is redundant with `package.repository`
+ --> projects\tooling\ra-testing\Cargo.toml:8:1
+  |
+7 | repository.workspace = true
+  | ----------
+8 | homepage.workspace = true
+  | ^^^^^^^^
+  |
+  = note: `cargo::redundant_homepage` is set to `warn` by default
+help: consider removing `package.homepage`
+warning: `ra-testing` (manifest) generated 1 warning
+warning: method `iter` is never used
+  --> projects\engine\ra-map\src\structure_paint.rs:70:8
+   |
+53 | impl StructurePaintHintTable {
+   | ---------------------------- method in this implementation
+...
+70 |     fn iter(&self) -> impl Iterator<Item = (&TechnoName, &StructureTypePaintHints)> {
+   |        ^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `ra-map` (lib) generated 1 warning
+warning: `ra-map` (lib) generated 1 warning (1 duplicate)
+    Finished `arena` profile [optimized] target(s) in 0.45s
+     Running unittests src\lib.rs (target\arena\build\ra-arena/08dd6e433d6fd874\out\ra_arena-08dd6e433d6fd874.exe)
+
+running 1 test
+test profile::tests::merging_weights_by_calls_and_histograms_instead_of_averaging_percentiles ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\main.rs (target\arena\build\ra-arena/e8b67c7d133dadcd\out\ra_arena-e8b67c7d133dadcd.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\arena.rs (target\arena\build\ra-arena/15fd5f96f3769b71\out\arena-15fd5f96f3769b71.exe)
+
+running 25 tests
+test elo_equal_rating_win_and_zero_sum ... ok
+test elo_bad_input_does_not_mutate_table ... ok
+test invalid_profiling_options_fail_before_the_tournament ... ok
+test invalid_configs_are_rejected_before_running ... ok
+test commands_are_capped_equally_and_dropped_count_is_visible ... ok
+test idle_skirmish_times_out_without_hidden_builtin_ai ... ok
+test mirrored_results_have_no_update_order_bias ... ok
+test npc_cannot_issue_orders_or_spend_funds_as_opponent ... ok
+test frozen_hard_copy_preserves_original_strategy_commands ... ok
+test invalid_resource_options_and_parallel_npc_failures_are_errors ... ok
+test npc_failure_is_an_error_and_never_a_draw ... ok
+test economy_measures_real_harvesting_even_while_spending_and_replays_metrics ... ok
+test old_reports_and_configs_remain_readable ... ok
+test actual_winner_is_correct_even_when_local_player_loses ... ok
+test shared_ai_entrypoint_preserves_the_builtin_driver_commands ... ok
+test skirmish_ai_disable_switch_is_respected_and_can_be_reenabled ... ok
+test replay_detects_result_hash_and_command_tampering ... ok
+test unexpected_win_is_worth_more_and_draw_moves_toward_equality ... ok
+test telemetry_aggregation_weights_duration_and_keeps_legacy_unknown ... ok
+test matches_are_repeatable_across_new_worlds_and_serialization ... ok
+test worker_count_bounds_live_npc_instances ... ok
+test summary_retains_scores_matchups_and_command_totals_without_records ... ok
+test engine_optimizations_preserve_frozen_match_results ... ok
+test mirrored_round_robin_is_balanced_and_identical_bots_stay_equal ... ok
+test parallel_matches_preserve_schedule_traces_hashes_and_elo ... ok
+
+test result: ok. 25 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.76s
+
+     Running tests\candidate.rs (target\arena\build\ra-arena/26464356a0ec47ed\out\candidate-26464356a0ec47ed.exe)
+
+running 4 tests
+test candidate_does_not_overcommit_funds_or_compete_for_one_building_queue ... ok
+test candidate_refinery_placement_improves_first_income ... ok
+test army_cap_counts_both_alive_units_and_in_flight_production ... ok
+test candidate_defeats_frozen_hard_from_both_seats_and_replays ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.22s
+
+   Doc-tests ra_arena
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
