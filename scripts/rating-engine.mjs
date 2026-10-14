@@ -5,7 +5,7 @@ export function configuration(c) {
   ok(c.schema_version==='1.0' && text(c.season,1,80) && /^[a-z0-9-]+$/.test(c.season),'invalid season');
   ok(['setup','open','closed'].includes(c.status) && c.protocol==='ra-arena-full-info-v1','invalid season status/protocol');
   keys(c.engine,['repository','commit'],'engine');
-  ok(c.engine.repository==='https://github.com/rust-alert/ra2.exe','unsupported engine repository');
+  ok(c.engine.repository==='https://github.com/ra2-agent/rust-ra2','unsupported engine repository');
   ok(Array.isArray(c.scenarios) && c.scenarios.length>0 && new Set(c.scenarios).size===c.scenarios.length && c.scenarios.every(s=>['duel-v1','economy-v1','skirmish-v1'].includes(s)),'invalid scenarios');
   for(const n of [c.max_ticks,c.max_commands_per_tick])ok(Number.isSafeInteger(n)&&n>0,'invalid budget');
   keys(c.rating,['initial','k','scale','provisional_games'],'rating');

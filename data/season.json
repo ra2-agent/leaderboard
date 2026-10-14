@@ -4,7 +4,7 @@
   "status": "setup",
   "protocol": "ra-arena-full-info-v1",
   "engine": {
-    "repository": "https://github.com/rust-alert/ra2.exe",
+    "repository": "https://github.com/ra2-agent/rust-ra2",
     "commit": null
   },
   "rules_sha256": null,

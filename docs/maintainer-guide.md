@@ -2,7 +2,7 @@
 
 ## 开启首个赛季
 
-1. 发布含 ra-arena 的引擎代码，固定可公开克隆的完整40位提交 SHA，使用干净工作区。当前本地尚未提交的引擎改动不作为正式环境。
+1. 使用已公开的 [ra2-agent/rust-ra2](https://github.com/ra2-agent/rust-ra2) 研究引擎，固定可公开克隆的完整40位提交 SHA，使用干净工作区。首个公开研究提交为 189a5e2b3d7e8afaaf5d1a868cb9f15d0464f938；具体赛季仍由维护者确认环境。
 2. 审核 agents 已合并版本并手工测试接入；将 key（id@version）、registry_commit（agents 完整提交）、checksums_sha256（checksums.json 原始文件 SHA-256）加入 data/season.json 的 roster。更改策略必须新版本，旧版不继承分数。
 3. 设置 engine.commit、rules_sha256、scenario_pool_sha256；场景池摘要应覆盖场景定义、合成内容与配置的固定清单。规则摘要为实际规则文件字节的 SHA-256，不是引擎自有的其他 hash。保存指纹所对应的内容及计算方法到测试证据中。
 4. 核实双方 max_ticks=3000、max_commands_per_tick=64，场景为 duel-v1/economy-v1，改 status 为 open。首批结果后不可原地改变协议、引擎、规则、预算、场景和计分参数；变更这些条件另开赛季（把旧仓库状态固定为标签并保留归档，使用新分支/目录后适配工具）。
