@@ -23,7 +23,7 @@ export function normalize(report, season, mapping, evidence, playedAt) {
   for (const key of ['max_ticks', 'max_commands_per_tick']) assert.equal(report.config[key], season[key]);
   const expected = report.config.npcs.length * (report.config.npcs.length - 1) * report.config.scenarios.length * report.config.rounds;
   assert.equal(report.matches.length, expected, 'Incomplete tournament');
-  const pairs = [];
+  const pairs = [], scenarioHashes = new Map();
   for (let i = 0; i < report.matches.length; i += 2) {
     const first = report.matches[i], second = report.matches[i + 1];
     assert.deepEqual(second.spec.seats, [...first.spec.seats].reverse());
@@ -31,7 +31,8 @@ export function normalize(report, season, mapping, evidence, playedAt) {
     assert.equal(first.spec.scenario, second.spec.scenario);
     const games = [first, second].map((game, j) => {
       assert.equal(game.protocol, season.protocol);
-      assert.equal(game.rules_hash, report.rules_hash);
+      if (!scenarioHashes.has(game.spec.scenario)) scenarioHashes.set(game.spec.scenario, game.rules_hash);
+      assert.equal(game.rules_hash, scenarioHashes.get(game.spec.scenario), 'Scenario rule hash changed within the tournament');
       assert.equal(game.spec.max_ticks, season.max_ticks);
       assert.equal(game.spec.max_commands_per_tick, season.max_commands_per_tick);
       assert.equal(game.spec.trace, true);

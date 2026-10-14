@@ -33,6 +33,12 @@ test('winner follows Agent identity after seats exchange', () => {
     assert.deepEqual(games.map(g => g.winner), expected);
   }
 });
+test('per-scenario rules differ from the combined report hash but stay fixed across a mirror', () => {
+  const f = fixture(); f.report.rules_hash = 'combined-bundle-hash';
+  assert.equal(convert(f).pairs.length, 1);
+  f.report.matches[1].rules_hash = 'different-scenario-rules';
+  assert.throws(() => convert(f));
+});
 test('incomplete, mismatched or unmirrored games cannot enter the ledger', () => {
   for (const mutate of [f => f.report.matches.pop(), f => f.report.matches[1].spec.seed = '1', f => f.report.matches[1].spec.seats.reverse(), f => f.report.matches[1].spec.max_ticks = 1000]) {
     const f = fixture(); mutate(f); assert.throws(() => convert(f));

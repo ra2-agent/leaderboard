@@ -15,6 +15,12 @@
 4. seed 用十进制字符串保存（支持完整 u64，不经过 JS Number）。每局写 ticks、终局哈希、winner（a/b/draw）、reason（elimination/tick_limit/mutual_elimination）。超时必须到 max_ticks 且记和，双方同时淘汰记和。
 5. node scripts/leaderboard.mjs --write；node scripts/check.mjs .；node --test tests/*.test.mjs。提交批次及 generated 两个文件到 PR，写明测试来源后合并。工具累计赛季分数，不直接采用单次 ra-arena 循环赛的临时 Elo。
 
+## 首批初始化
+
+2026-s0 的首批 roster 为 starter-idle@0.1.0、hard-baseline-v1@1.0.0、reference-v1～v7@1.0.0、counter-retreat-v1@1.0.0。固定公开引擎提交 189a5e2b3d7e8afaaf5d1a868cb9f15d0464f938；duel-v1/economy-v1 各四轮镜像循环赛，主种子 42，共 720 局。全部逐局轨迹已回放核验；原始报告、规则文件、场景定义、编译环境和实际 Agent 注册驱动见 [评测证据](../evidence/2026-s0-initial/README.md)。名单登记 PR 必须先合入 agents，再合并首批流水。
+
+规则摘要覆盖实际使用的两个规则文件的原始字节，按 rules-v1.ini、economy-v1.ini 顺序拼接后计算 SHA-256。场景池摘要对应证据中的 scenario-pool.json 原始字节；文件同时保存规则的顺序、字节数和源码/配置文件摘要。不要将引擎内部的 rules_hash 当作该 SHA-256。后续比赛保持已冻结的条件；归一化脚本仅辅助维护者核对结果，不授权 CI 运行 Agent 或自行计入新比赛。
+
 ## 维护与纠错
 
 社区只贡献 Agent 和提出战绩问题；维护者确认的结果才进入正式流水。若有错误，在 PR 说明原批次、修改原因和替代证据，修正原始数据后重算整个赛季；不要增加一条重复比赛来抵消。Git 历史保留旧值。

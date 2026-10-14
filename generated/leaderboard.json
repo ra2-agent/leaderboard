@@ -1,13 +1,346 @@
 {
   "schema_version": "1.0",
   "season": "2026-s0",
-  "status": "setup",
-  "batches": 0,
-  "pairs": 0,
-  "games": 0,
-  "leaderboard": [],
+  "status": "open",
+  "batches": 1,
+  "pairs": 360,
+  "games": 720,
+  "leaderboard": [
+    {
+      "key": "reference-v7@1.0.0",
+      "elo": 1710.29513,
+      "games": 144,
+      "wins": 96,
+      "draws": 24,
+      "losses": 24,
+      "rank": 1,
+      "score_rate": 0.75,
+      "provisional": false
+    },
+    {
+      "key": "reference-v6@1.0.0",
+      "elo": 1700.106191,
+      "games": 144,
+      "wins": 87,
+      "draws": 40,
+      "losses": 17,
+      "rank": 2,
+      "score_rate": 0.7430555555555556,
+      "provisional": false
+    },
+    {
+      "key": "reference-v5@1.0.0",
+      "elo": 1691.81918,
+      "games": 144,
+      "wins": 85,
+      "draws": 40,
+      "losses": 19,
+      "rank": 3,
+      "score_rate": 0.7291666666666666,
+      "provisional": false
+    },
+    {
+      "key": "reference-v4@1.0.0",
+      "elo": 1630.625974,
+      "games": 144,
+      "wins": 76,
+      "draws": 40,
+      "losses": 28,
+      "rank": 4,
+      "score_rate": 0.6666666666666666,
+      "provisional": false
+    },
+    {
+      "key": "counter-retreat-v1@1.0.0",
+      "elo": 1621.764003,
+      "games": 144,
+      "wins": 84,
+      "draws": 24,
+      "losses": 36,
+      "rank": 5,
+      "score_rate": 0.6666666666666666,
+      "provisional": false
+    },
+    {
+      "key": "reference-v3@1.0.0",
+      "elo": 1570.906938,
+      "games": 144,
+      "wins": 64,
+      "draws": 40,
+      "losses": 40,
+      "rank": 6,
+      "score_rate": 0.5833333333333334,
+      "provisional": false
+    },
+    {
+      "key": "reference-v2@1.0.0",
+      "elo": 1509.395245,
+      "games": 144,
+      "wins": 51,
+      "draws": 40,
+      "losses": 53,
+      "rank": 7,
+      "score_rate": 0.4930555555555556,
+      "provisional": false
+    },
+    {
+      "key": "reference-v1@1.0.0",
+      "elo": 1289.77575,
+      "games": 144,
+      "wins": 27,
+      "draws": 8,
+      "losses": 109,
+      "rank": 8,
+      "score_rate": 0.2152777777777778,
+      "provisional": false
+    },
+    {
+      "key": "hard-baseline-v1@1.0.0",
+      "elo": 1215.374184,
+      "games": 144,
+      "wins": 18,
+      "draws": 8,
+      "losses": 118,
+      "rank": 9,
+      "score_rate": 0.1527777777777778,
+      "provisional": false
+    },
+    {
+      "key": "starter-idle@0.1.0",
+      "elo": 1059.937406,
+      "games": 144,
+      "wins": 0,
+      "draws": 0,
+      "losses": 144,
+      "rank": 10,
+      "score_rate": 0,
+      "provisional": false
+    }
+  ],
   "by_scenario": {
-    "duel-v1": [],
-    "economy-v1": []
+    "duel-v1": [
+      {
+        "key": "reference-v6@1.0.0",
+        "elo": 1633.007404,
+        "games": 72,
+        "wins": 32,
+        "draws": 40,
+        "losses": 0,
+        "rank": 1,
+        "score_rate": 0.7222222222222222,
+        "provisional": false
+      },
+      {
+        "key": "reference-v5@1.0.0",
+        "elo": 1632.953404,
+        "games": 72,
+        "wins": 32,
+        "draws": 40,
+        "losses": 0,
+        "rank": 2,
+        "score_rate": 0.7222222222222222,
+        "provisional": false
+      },
+      {
+        "key": "reference-v2@1.0.0",
+        "elo": 1632.592073,
+        "games": 72,
+        "wins": 32,
+        "draws": 40,
+        "losses": 0,
+        "rank": 3,
+        "score_rate": 0.7222222222222222,
+        "provisional": false
+      },
+      {
+        "key": "reference-v3@1.0.0",
+        "elo": 1632.173427,
+        "games": 72,
+        "wins": 32,
+        "draws": 40,
+        "losses": 0,
+        "rank": 4,
+        "score_rate": 0.7222222222222222,
+        "provisional": false
+      },
+      {
+        "key": "reference-v4@1.0.0",
+        "elo": 1631.856244,
+        "games": 72,
+        "wins": 32,
+        "draws": 40,
+        "losses": 0,
+        "rank": 5,
+        "score_rate": 0.7222222222222222,
+        "provisional": false
+      },
+      {
+        "key": "reference-v7@1.0.0",
+        "elo": 1535.261642,
+        "games": 72,
+        "wins": 28,
+        "draws": 24,
+        "losses": 20,
+        "rank": 6,
+        "score_rate": 0.5555555555555556,
+        "provisional": false
+      },
+      {
+        "key": "counter-retreat-v1@1.0.0",
+        "elo": 1504.224631,
+        "games": 72,
+        "wins": 24,
+        "draws": 24,
+        "losses": 24,
+        "rank": 7,
+        "score_rate": 0.5,
+        "provisional": false
+      },
+      {
+        "key": "reference-v1@1.0.0",
+        "elo": 1306.882513,
+        "games": 72,
+        "wins": 8,
+        "draws": 8,
+        "losses": 56,
+        "rank": 8,
+        "score_rate": 0.16666666666666666,
+        "provisional": false
+      },
+      {
+        "key": "hard-baseline-v1@1.0.0",
+        "elo": 1300.963512,
+        "games": 72,
+        "wins": 8,
+        "draws": 8,
+        "losses": 56,
+        "rank": 9,
+        "score_rate": 0.16666666666666666,
+        "provisional": false
+      },
+      {
+        "key": "starter-idle@0.1.0",
+        "elo": 1190.085151,
+        "games": 72,
+        "wins": 0,
+        "draws": 0,
+        "losses": 72,
+        "rank": 10,
+        "score_rate": 0,
+        "provisional": false
+      }
+    ],
+    "economy-v1": [
+      {
+        "key": "reference-v7@1.0.0",
+        "elo": 1775.654808,
+        "games": 72,
+        "wins": 68,
+        "draws": 0,
+        "losses": 4,
+        "rank": 1,
+        "score_rate": 0.9444444444444444,
+        "provisional": false
+      },
+      {
+        "key": "counter-retreat-v1@1.0.0",
+        "elo": 1689.492446,
+        "games": 72,
+        "wins": 60,
+        "draws": 0,
+        "losses": 12,
+        "rank": 2,
+        "score_rate": 0.8333333333333334,
+        "provisional": false
+      },
+      {
+        "key": "reference-v6@1.0.0",
+        "elo": 1666.634004,
+        "games": 72,
+        "wins": 55,
+        "draws": 0,
+        "losses": 17,
+        "rank": 3,
+        "score_rate": 0.7638888888888888,
+        "provisional": false
+      },
+      {
+        "key": "reference-v5@1.0.0",
+        "elo": 1650.488916,
+        "games": 72,
+        "wins": 53,
+        "draws": 0,
+        "losses": 19,
+        "rank": 4,
+        "score_rate": 0.7361111111111112,
+        "provisional": false
+      },
+      {
+        "key": "reference-v4@1.0.0",
+        "elo": 1567.08565,
+        "games": 72,
+        "wins": 44,
+        "draws": 0,
+        "losses": 28,
+        "rank": 5,
+        "score_rate": 0.6111111111111112,
+        "provisional": false
+      },
+      {
+        "key": "reference-v3@1.0.0",
+        "elo": 1466.913834,
+        "games": 72,
+        "wins": 32,
+        "draws": 0,
+        "losses": 40,
+        "rank": 6,
+        "score_rate": 0.4444444444444444,
+        "provisional": false
+      },
+      {
+        "key": "reference-v1@1.0.0",
+        "elo": 1364.09781,
+        "games": 72,
+        "wins": 19,
+        "draws": 0,
+        "losses": 53,
+        "rank": 7,
+        "score_rate": 0.2638888888888889,
+        "provisional": false
+      },
+      {
+        "key": "reference-v2@1.0.0",
+        "elo": 1361.251063,
+        "games": 72,
+        "wins": 19,
+        "draws": 0,
+        "losses": 53,
+        "rank": 8,
+        "score_rate": 0.2638888888888889,
+        "provisional": false
+      },
+      {
+        "key": "hard-baseline-v1@1.0.0",
+        "elo": 1274.900618,
+        "games": 72,
+        "wins": 10,
+        "draws": 0,
+        "losses": 62,
+        "rank": 9,
+        "score_rate": 0.1388888888888889,
+        "provisional": false
+      },
+      {
+        "key": "starter-idle@0.1.0",
+        "elo": 1183.48085,
+        "games": 72,
+        "wins": 0,
+        "draws": 0,
+        "losses": 72,
+        "rank": 10,
+        "score_rate": 0,
+        "provisional": false
+      }
+    ]
   }
 }

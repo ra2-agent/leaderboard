@@ -89,7 +89,7 @@
     "roster-mapping.json": "f8c6b007fd1c70a41e8c6789b93e6105a4927c29176c914f9430947d3def63aa",
     "runner.rs": "be5d48f7d768250abc1fd709a090fa71dca3d5827892f9796ecf0383f398ac00",
     "prepare-runner.mjs": "cd552633e597751428f2b9bbdfc964a8eda2a89b8e0d880404fd3afca992f0e6",
-    "normalize.mjs": "eea6ee2de2a0c64b72fda8fbb73497d27dab3dbe3db9dbd710e7f885d77a2934",
+    "normalize.mjs": "5fc0c8bf9689f2f7090c7887ac4ace1730c9beffc52f0aabd8dea40cae1fd632",
     "scenario-pool.json": "81b359331db334e976f135be1c1cee03d95040e7c8f3483763c1c2d2b380c267",
     "replay-verification.txt": "f5bdb47c8edbdd0b74f507c8e73cf089102d3e632ad0cd0ba7ffbd73f6d71a34",
     "engine-Cargo.lock": "6299ee385186500ab3fd4a9f6644955f961af52658546f5be09a5d0a4070aa06",
